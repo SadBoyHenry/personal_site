@@ -2,15 +2,33 @@
     background-color: white;
     font-family: sans-serif;
 }
-.bio{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    column-gap: 10px;
+.first-page{
+     display: flex; 
 }
 .intro{
     display: inline-block;
     border-bottom: 1px solid black;
     text-align: center;
     width: 100%;
+}
+.gaming, .soccer, .learning{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.qoute{
+    text-align: center;
+}
+#project1, #project2, #project3{
+    border: 1px solid black;
+    width: 900px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.port-pic{
+    text-align: center;
+}
+.title{
+    text-align: center;
 }
