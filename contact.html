@@ -33,19 +33,24 @@
         </div>
       </nav>
 </header>
-<body>
-    <Section class="first-page">
-         <div id="bio">
-            <h1><strong>Developer, Coach, Leader</strong></h1>
-            <p>Intrested in improving deleopment processes for teams big and small, and enjoy it every step of the way.</p>
-        </div>
-        <div id="pic1">
-            <img src="Henry.JPG" alt="Profile Picture"
-            height="300">
-        </div>
-    </Section>
-    <seciton class="qoute">
-        <h2><em>"It takes courage to grow up and become who you really are." </em></h2>
-    </seciton>
+<body class="contact">
+    <header class="contact-header">
+        <h1>Contact Me:</h1>
+    </header>
+    <main class="contact-main">
+        <form class="contact-form" method="get" action="success.html">
+            <label class="contact-label" for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label class="contact-label" for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label class="contact-label" for="message">Message:</label>
+            <textarea class="contact-textarea" id="message" name="message" required></textarea>
+
+            <button class="contact-button" id="submit">Submit</button>
+        </form>
+    </main>
+    <script src="javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
