@@ -2,9 +2,6 @@
     background-color: white;
     font-family: sans-serif;
 }
-.first-page{
-     display: flex; 
-}
 .intro{
     display: inline-block;
     border-bottom: 1px solid black;
@@ -31,4 +28,58 @@
 }
 .title{
     text-align: center;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+}
+#pic1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bio{
+    text-align: center;
+}
+
+.contact{
+    margin: 0;
+    padding: 0;
+}
+.contact-header{
+    padding: 20px;
+    text-align: center;
+}
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.contact-form{
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-label{
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+.contact-textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.contact-button{
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
 }
